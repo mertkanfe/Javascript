@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: rebeccapurple;
+    background-color: rgb(33, 13, 160);
     color: white;
     display: flex;
     align-items: center;
@@ -70,9 +70,9 @@ body {
 }
 
 .generate {
-    background-color: #ecb602;
+    background-color: rgb(33, 13, 160);
     border: none;
-    color: rebeccapurple;
+    color: rgb(18, 123, 210);
     cursor: pointer;
     display: block;
     font-size: 1.5rem;
