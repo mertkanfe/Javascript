@@ -1,19 +1,11 @@
 const quizData = [
     {
-        question: "What is the most used programming language in 2019?",
+        question: "What is the most used programming language in 2026?",
         a: "Java",
         b: "C",
         c: "Python",
         d: "JavaScript",
         correct: "d",
-    },
-    {
-        question: "Who is the President of US?",
-        a: "Florin Pop",
-        b: "Donald Trump",
-        c: "Ivan Saldano",
-        d: "Mihai Andrei",
-        correct: "b",
     },
     {
         question: "What does HTML stand for?",
