@@ -1,20 +1,128 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Javascript Projects</title>
+    <title>JavaScript Projeleri</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+
+        body{
+            background:#0f172a;
+            color:#fff;
+            padding:50px;
+        }
+
+        h1{
+            text-align:center;
+            margin-bottom:10px;
+        }
+
+        p{
+            text-align:center;
+            color:#cbd5e1;
+            margin-bottom:40px;
+        }
+
+        .projects{
+            display:grid;
+            grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+            gap:20px;
+            max-width:1200px;
+            margin:auto;
+        }
+
+        .card{
+            background:#1e293b;
+            padding:25px;
+            border-radius:12px;
+            transition:.3s;
+        }
+
+        .card:hover{
+            transform:translateY(-5px);
+            background:#334155;
+        }
+
+        .card h2{
+            font-size:20px;
+            margin-bottom:15px;
+        }
+
+        .card a{
+            display:inline-block;
+            text-decoration:none;
+            color:#38bdf8;
+            font-weight:bold;
+        }
+    </style>
+
 </head>
 <body>
-1. **⏳ Countdown Timer**
-2. **📝 ToDo App**
-3. **🔑 Password Generator**
-4. **🎬 Movie App**
-5. **🍳 Recipe App**
-6. **📓 Notes App**
-7. **☀️ Weather App**
-8. **🧠 Quiz App**
-9. **🎨 Drawing App**
-10. **🐙 GitHub Profiles**
+
+<h1>🚀 JavaScript Projeleri</h1>
+
+<p>HTML, CSS ve Vanilla JavaScript kullanılarak geliştirilen uygulamalar.</p>
+
+<div class="projects">
+
+    <div class="card">
+        <h2>⏳ Countdown Timer</h2>
+        <a href="./01-Countdown-Timer/">Projeye Git →</a>
+    </div>
+
+    <div class="card">
+        <h2>📝 ToDo App</h2>
+        <a href="./02-Todo-App/">Projeye Git →</a>
+    </div>
+
+    <div class="card">
+        <h2>🔑 Password Generator</h2>
+        <a href="./03-Password-Generator/">Projeye Git →</a>
+    </div>
+
+    <div class="card">
+        <h2>🎬 Movie App</h2>
+        <a href="./04-Movie-App/">Projeye Git →</a>
+    </div>
+
+    <div class="card">
+        <h2>🍳 Recipe App</h2>
+        <a href="./05-Recipe-App/">Projeye Git →</a>
+    </div>
+
+    <div class="card">
+        <h2>📓 Notes App</h2>
+        <a href="./06-Notes-App/">Projeye Git →</a>
+    </div>
+
+    <div class="card">
+        <h2>☀️ Weather App</h2>
+        <a href="./07-Weather-App/">Projeye Git →</a>
+    </div>
+
+    <div class="card">
+        <h2>🧠 Quiz App</h2>
+        <a href="./08-Quiz-App/">Projeye Git →</a>
+    </div>
+
+    <div class="card">
+        <h2>🎨 Drawing App</h2>
+        <a href="./09-Drawing-App/">Projeye Git →</a>
+    </div>
+
+    <div class="card">
+        <h2>🐙 GitHub Profiles</h2>
+        <a href="./10-Github-Profiles/">Projeye Git →</a>
+    </div>
+
+</div>
+
 </body>
 </html>
